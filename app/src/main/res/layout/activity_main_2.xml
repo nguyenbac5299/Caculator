@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_math"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#D0D4D6"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#D0D4D6"
+        android:gravity="bottom|end"
+        android:text="0"
+        android:textSize="100sp" />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_CE"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="CE"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_C"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="C"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_BS"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="BS"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_div"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="/"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="9"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_mul"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="x"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_sub"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="+/-"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_0"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#E9E2E5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_dot"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="."
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_equal"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="#C4BBBB"
+                android:gravity="center"
+                android:text="="
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
